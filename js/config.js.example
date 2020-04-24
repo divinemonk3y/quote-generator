@@ -1,0 +1,4 @@
+var creds = {
+    host: 'Host credentials from RapidAPI',
+    key: 'Key credentials from RapidAPI'
+}

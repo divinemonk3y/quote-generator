@@ -1,0 +1,9 @@
+node_modules/
+
+# Compiled files
+css/main.css
+css/main.css.map
+js/scripts.min.js
+
+# Config
+js/config.js

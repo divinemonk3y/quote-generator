@@ -1,0 +1,32 @@
+body {
+    background: #085078; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    color: #fff;
+
+    #quote {
+        padding: 1em 1em 0 1em;
+        font-style: italic;
+    }
+
+    #author {
+        margin-top: 0.5em;
+    }
+
+    button {
+        margin: 30% 0 0 0;
+        background: #fff;
+        color: #134E5E;
+        padding: 0.5em 1em;
+        border: {
+            width: 0;
+            radius: 6px;
+        }
+        outline: none;
+
+        &#new {
+            color: #fff;
+            background: #085078;
+        }
+    }
+}
